@@ -22,9 +22,12 @@
 #include <stdint.h>
 
 // Main Settings
-#define	TM1637_DIO_PIN			PB0
-#define	TM1637_CLK_PIN			PB1
-#define	TM1637_DELAY_US			(5)
+#define	TM1637_PORT             PORTC
+#define	TM1637_DDR              DDRC
+#define	TM1637_PIN              PINC
+#define	TM1637_DIO_PIN			PC4
+#define	TM1637_CLK_PIN			PC5
+#define	TM1637_DELAY_US			(1)
 #define	TM1637_BRIGHTNESS_MAX		(7)
 #define	TM1637_POSITION_MAX		(4)
 
